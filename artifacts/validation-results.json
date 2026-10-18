@@ -1,0 +1,50 @@
+{
+  "profile": "Worker validation of the production export at /preview/",
+  "passed": [
+    "chromium: first phone screen contains product and badge action",
+    "chromium: all local assets load without external requests or browser errors",
+    "chromium: mobile navigation opens, follows an anchor and closes",
+    "chromium: FAQ disclosure works with the keyboard",
+    "chromium: badge dialog opens, contains focus and returns it on Escape",
+    "chromium: empty form shows a linked error, focuses the name and recovers",
+    "chromium: coat and job choices update the named live preview",
+    "chromium: SVG download contains the chosen name, coat and title",
+    "chromium: longest allowed wide name remains inside badge",
+    "chromium: form text is escaped in SVG output",
+    "chromium: download failure gives an honest error and retry works",
+    "chromium: automated accessibility scan of the badge dialog",
+    "chromium: close button works and choices last for the current tab",
+    "chromium: reduced motion stops smooth scrolling and transitions",
+    "chromium: responsive export and modal at 320px",
+    "chromium: responsive export and modal at 390px",
+    "chromium: responsive export and modal at 768px",
+    "chromium: responsive export and modal at 1024px",
+    "chromium: responsive export and modal at 1440px",
+    "chromium: responsive export and modal at 1920px",
+    "chromium: automated accessibility scan of the full page",
+    "chromium: backdrop closes the dialog at desktop width",
+    "chromium: 200% text enlargement reflows at 390px",
+    "chromium: final console and resource check"
+  ],
+  "failed": [],
+  "limitations": [
+    "WebKit could not run: browserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libgraphene-1.0.so.0                             ║\n║     libwoff2dec.so.1.0.2                             ║\n║     libevent-2.1.so.7                                ║\n║     libgstgl-1.0.so.0                                ║\n║     libgstcodecparsers-1.0.so.0                      ║\n║     libavif.so.16                                    ║\n║     libharfbuzz-icu.so.0                             ║\n║     libenchant-2.so.2                                ║\n║     libsecret-1.so.0                                 ║\n║     libhyphen.so.0                                   ║\n║     libwayland-server.so.0                           ║\n║     libmanette-0.2.so.0                              ║\n║     libGLESv2.so.2                                   ║\n╚══════════════════════════════════════════════════════╝"
+  ],
+  "measurements": {
+    "chromium-phone-cta": {
+      "x": 20,
+      "y": 339.25,
+      "width": 263,
+      "height": 56
+    },
+    "chromium-long-name-bounds": {
+      "x": 45.15625,
+      "right": 556.5185546875
+    }
+  },
+  "retainedScreenshots": [
+    "mobile-390.png",
+    "mobile-badge.png",
+    "desktop-1440.png"
+  ]
+}

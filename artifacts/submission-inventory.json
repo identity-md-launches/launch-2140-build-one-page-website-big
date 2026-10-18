@@ -1,0 +1,251 @@
+{
+  "note": "Raw delivery file sizes, excluding supplied inputs, protected metadata, ignored generated directories and removed scratch. This inventory includes its own size in totalBytes but does not hash itself. Raw file size is a conservative budget check, not a measured Git pack.",
+  "fileCount": 45,
+  "contentBytes": 1164712,
+  "inventoryBytes": 7759,
+  "totalBytes": 1172471,
+  "limitBytes": 8388608,
+  "pathBudgets": {
+    ".gitignore": {
+      "bytes": 117,
+      "limit": 256
+    },
+    "dist/": {
+      "bytes": 381593,
+      "limit": 1048576
+    },
+    "artifacts/": {
+      "bytes": 507312,
+      "limit": 1048576
+    },
+    "generatedDependenciesAndCaches": {
+      "bytes": 0,
+      "limit": 0
+    }
+  },
+  "excludedGeneratedDirectories": [
+    "node_modules"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 117,
+      "sha256": "6a28f3691595b723348b85a5504510655786503f70f2124b337a94aa9732da1b"
+    },
+    {
+      "path": "artifacts/ATTRIBUTION.md",
+      "bytes": 1562,
+      "sha256": "127ea9d48e2337ed2e2a8eb8b2e3db9dfb8a7c0022b5eacccf0a54a4e99b76cb"
+    },
+    {
+      "path": "artifacts/design-guidance-LICENSE.txt",
+      "bytes": 11964,
+      "sha256": "97042f2887a04fc6c26967568cee2a17b3229d0f7e5e3c0b0ac877bef6932c39"
+    },
+    {
+      "path": "artifacts/desktop-1440.png",
+      "bytes": 360241,
+      "sha256": "182ec52321348f7fd4725ebcbf2630372c4b90dce7833b1ee6e8c5e58f2dab43"
+    },
+    {
+      "path": "artifacts/mobile-390.png",
+      "bytes": 54063,
+      "sha256": "6ac925c6915eab0f0895e32b5adebae5cb14fe0dbb3e90eca5ff7b7b69d683d1"
+    },
+    {
+      "path": "artifacts/mobile-badge.png",
+      "bytes": 50975,
+      "sha256": "03f23a24a4ae91bf3c00ca5544f4d1368dc609ecd0e2012f4dcb9a93866376ae"
+    },
+    {
+      "path": "artifacts/taste-results.json",
+      "bytes": 3517,
+      "sha256": "e813c8e0815bc675674d51d2ad6485f50cd69dc15404f2986c8ab10554398aec"
+    },
+    {
+      "path": "artifacts/validation-results.json",
+      "bytes": 3371,
+      "sha256": "ca898ce6eeb583483259711152e70b3598c8286ffdd4f721e89b9a04dddea61f"
+    },
+    {
+      "path": "artifacts/validation.md",
+      "bytes": 13860,
+      "sha256": "d7b65da0b88a2004993f50fa3c185dc27e1ad9b8d78c647f4892728629f279ea"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 10107,
+      "sha256": "829bdccfbc95586cb6bff530f48cc7dcf15e56fafb42af6085d4aa109b7d4385"
+    },
+    {
+      "path": "dist/assets/index-CVqKH8XV.css",
+      "bytes": 19070,
+      "sha256": "19e0c2d3bf6bd5fe1b164335ca4ea58795e28e3c0c6b7f7b60eaf3f3b453a598"
+    },
+    {
+      "path": "dist/assets/index-DswCEPS_.js",
+      "bytes": 214816,
+      "sha256": "5f04d82ddc2e521fae9e50bb9ae083c5973c7667fb16b022229a110b69d6b099"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 431,
+      "sha256": "d3a24962335a35dbe4c2ea28eccd6f0627c55eb8e5c922627e7a4df64e803200"
+    },
+    {
+      "path": "dist/fonts/bricolage-latin-800.woff2",
+      "bytes": 38884,
+      "sha256": "38206b0a37563bb38ac239992d0e0f6cc4ccafba49f3357420995cddcee65126"
+    },
+    {
+      "path": "dist/fonts/dm-sans-latin-variable.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "dist/fonts/OFL-Bricolage-Grotesque.txt",
+      "bytes": 4403,
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "path": "dist/fonts/OFL-DM-Sans.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 1701,
+      "sha256": "c0927aab7a4ae57c560022345262bb59fb571d096a173c01af88abaf5f038ee1"
+    },
+    {
+      "path": "dist/share-card.png",
+      "bytes": 57443,
+      "sha256": "b135981547c42e472a3e709303393257ca8da71f131d87f463dce77ab09592f6"
+    },
+    {
+      "path": "dist/share-card.svg",
+      "bytes": 2051,
+      "sha256": "634de8269ea4c094e854677eb41ed72047cbc3a747d8ae2dcca7a0855f6018b7"
+    },
+    {
+      "path": "dist/THIRD-PARTY-NOTICES.txt",
+      "bytes": 1380,
+      "sha256": "faeb67f85636cf40d67b6b42a78eb31343cadff010c9ef604a31cec474f46e96"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1602,
+      "sha256": "b5e9634389d0a96a1ede9a4ee7f477f7fc5a82eb92e2ce0fd8da8b32811b360e"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 41780,
+      "sha256": "0e182c16f9a39058ae2e9f2f3e5abacf2188213a18ee4b2f6990b92b36e2a210"
+    },
+    {
+      "path": "package.json",
+      "bytes": 612,
+      "sha256": "74f34082d066382251264fa868a9aed9db4d9934c16f8d6508c77f283f0779e9"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 431,
+      "sha256": "d3a24962335a35dbe4c2ea28eccd6f0627c55eb8e5c922627e7a4df64e803200"
+    },
+    {
+      "path": "public/fonts/bricolage-latin-800.woff2",
+      "bytes": 38884,
+      "sha256": "38206b0a37563bb38ac239992d0e0f6cc4ccafba49f3357420995cddcee65126"
+    },
+    {
+      "path": "public/fonts/dm-sans-latin-variable.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "public/fonts/OFL-Bricolage-Grotesque.txt",
+      "bytes": 4403,
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "path": "public/fonts/OFL-DM-Sans.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "public/share-card.png",
+      "bytes": 57443,
+      "sha256": "b135981547c42e472a3e709303393257ca8da71f131d87f463dce77ab09592f6"
+    },
+    {
+      "path": "public/share-card.svg",
+      "bytes": 2051,
+      "sha256": "634de8269ea4c094e854677eb41ed72047cbc3a747d8ae2dcca7a0855f6018b7"
+    },
+    {
+      "path": "public/THIRD-PARTY-NOTICES.txt",
+      "bytes": 1380,
+      "sha256": "faeb67f85636cf40d67b6b42a78eb31343cadff010c9ef604a31cec474f46e96"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5907,
+      "sha256": "4462884a60e31cc61467db6447e753ad4adca7a2c4533818c209c2f00f9e7d9a"
+    },
+    {
+      "path": "scripts/dependencies.mjs",
+      "bytes": 319,
+      "sha256": "1794db0469296b471d43ea2d6b19de7c73f15bf84b8a2a6c76c5cec3083c9647"
+    },
+    {
+      "path": "scripts/make-share-card.mjs",
+      "bytes": 1082,
+      "sha256": "776e34a1c3497e98c1b38f919fcfd8604d28e70baeff5b58b1df284792400ee7"
+    },
+    {
+      "path": "scripts/static-server.mjs",
+      "bytes": 1693,
+      "sha256": "af633c7ef2c3d6e26a6cae5fdefcf8bc2bf834e7ca944667880e6976fb807aee"
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "bytes": 18825,
+      "sha256": "bf9aa509d42e59ec07dc7be88c6e6ef488877144044b0a754e41dda7f97e28d9"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 16307,
+      "sha256": "7285b627e1fc53730b4552aeed0bda370e744c30ceb56c575be8c9dddf5b68c8"
+    },
+    {
+      "path": "src/BadgeMaker.tsx",
+      "bytes": 9776,
+      "sha256": "36d85d37a4d9183682de96649328827bde26388db93c721910d90e25ac3935c6"
+    },
+    {
+      "path": "src/Dog.tsx",
+      "bytes": 4136,
+      "sha256": "29a3719b80177e71585798ee452fd34f2a4d8149a3c89d49eba833a44095e985"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 239,
+      "sha256": "294f62f7961cca8822a5474309fbc9f35bf45b61fc815fc7d8ecc17b64afe583"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 23901,
+      "sha256": "8cc8cb5dbc5426718c1fb81510ad68c823298bd7b4651c1496e253ed98a0b3c9"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 420,
+      "sha256": "3bd918e1af3d85a18bd8c3b1d4face5a03638d1af619849a79fd84348076034c"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 737,
+      "sha256": "27bbdff5e09046142ee6adebddc1da03df32e6245f4221c866588cd0c44ed16b"
+    }
+  ]
+}
